@@ -251,7 +251,7 @@
 								<td>Logitech mk120</td>
 								<td></td>
 								<td><i class="fas fa-check text-4"></i></td>
-							</tr>							
+							</tr>
 							<tr>
 								<td>Monitor</td>
 								<td>AOC 19.5"</td>
@@ -285,77 +285,15 @@
 
 		</div>
 
-		<footer class="footer">
-			<div class="footer__top">
-				<div class="center ">
-					<a href="#" class="">
-						<img src="assets/img/creacion-paginas-web.png" alt="" class="lf">
-					</a>
-					<div class="text mt-5">
-						Desarrollo de páginas web, soporte técnico integral en redes y equipo de cómputo
-						para tu empresa y hogar.
-					</div>
-					<ul>
-						<li>
-							<a href="mailto:surftware@gmail.com">
-								<i class="fa fa-envelope" style="color:#e91835"></i><span class="text-white">surftware@gmail.com</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://api.whatsapp.com/send?phone=+525511894621&text=Hola, te contacto desde la página web de SurftwareLanding"
-								target="_blank">
-								<i class="fa fa-phone" style="color:#e91835"></i><span class="text-white">55-11-89-46-21</span>
-							</a>
-						</li>
-						<li>
-							<a href="https://goo.gl/maps/Xz1nAfD5BfXZZnbu8" target="_blank">
-								<i class="fa fa-map-marker" style="color:#e91835"></i><span class="text-white">Nte. 84-A 6515 San Pedro el
-									Chico</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			
-		</footer>
+
+		<?php  
+		include ("includes/footer.php");			
+		?>
+
 	</div>
-
-	<!-- Vendor -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-	<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-	<script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="vendor/common/common.min.js"></script>
-	<script src="vendor/jquery.validation/jquery.validation.min.js"></script>
-	<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
-	<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
-	<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-	<script src="vendor/isotope/jquery.isotope.min.js"></script>
-	<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-	<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<script src="vendor/vide/vide.min.js"></script>
-	<script src="vendor/vivus/vivus.min.js"></script>
-
-	<!-- Theme Base, Components and Settings -->
-	<script src="js/theme.js"></script>
-
-	<!-- Theme Custom -->
-	<script src="js/custom.js"></script>
-
-	<!-- Theme Initialization Files -->
-	<script src="js/theme.init.js"></script>
-
-	<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
-			ga('create', 'UA-12345678-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		 -->
+	<?php 
+	include ("includes/js.php");	
+	?>
 
 </body>
 
