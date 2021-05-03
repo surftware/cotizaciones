@@ -61,11 +61,10 @@ include ("includes/header.php");
 						<th class="p-0">
 							<div class="plan">
 								<div class="plan-title">
-									<span class="font-weight-light text-uppercase text-3">Computadora
-										Básica</span>
+									<span class="font-weight-light text-uppercase text-3">Server</span>
 								</div>
 								<div class="plan-price">
-									<strong><em>$</em>8900</strong>
+									<strong><em>$</em></strong>
 									<p>MXN</p>
 								</div>
 							</div>
@@ -74,23 +73,23 @@ include ("includes/header.php");
 							<div class="plan plan-most-popular bg-primary">
 								<div class="plan-title">
 									<span
-										class="d-block font-weight-light text-uppercase text-light text-3">Advanced</span>
-									<em class="text-light font-weight-light">Most Popular</em>
+										class="d-block font-weight-light text-uppercase text-light text-3"></span>
+									<em class="text-light font-weight-light"></em>
 								</div>
 								<div class="plan-price">
-									<strong class="text-light"><em>$</em>39</strong>
-									<p class="text-light">1 month</p>
+									<strong class="text-light"><em></em></strong>
+									<p class="text-light"></p>
 								</div>
 							</div>
 						</th>
 						<th class="p-0">
 							<div class="plan">
 								<div class="plan-title">
-									<span class="font-weight-light text-uppercase text-3">Enterprise</span>
+									<span class="font-weight-light text-uppercase text-3"></span>
 								</div>
 								<div class="plan-price">
-									<strong><em>$</em>39</strong>
-									<p>1 month</p>
+									<strong><em></em></strong>
+									<p></p>
 								</div>
 							</div>
 						</th>
@@ -100,7 +99,7 @@ include ("includes/header.php");
 					<tr>
 						<td>Mother Board</td>
 						<td>Asus Prime A520M-K</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td></td>
 						<td></td>
 					</tr>
 					<tr>
@@ -111,7 +110,7 @@ include ("includes/header.php");
 					</tr>
 					<tr>
 						<td>Almacenamiento</td>
-						<td>Disco 500 Gb SATA Western Digital</td>
+						<td>Disco 2 Tb SATA 3</td>
 						<td></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
@@ -142,7 +141,7 @@ include ("includes/header.php");
 					</tr>
 					<tr>
 						<td>Armado e instalación Software</td>
-						<td>Windows 10 con Antivirus y Lista para usarse</td>
+						<td>Ubuntu Server</td>
 						<td></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
@@ -175,7 +174,7 @@ include ("includes/header.php");
 </div>
 <?php 
 	include ("includes/js.php");	
-	?>
+?>
 
 </body>
 
