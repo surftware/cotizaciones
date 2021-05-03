@@ -61,37 +61,4 @@
             </div>
         </header>
 
-        <div role="main" class="main">
-
-            <section class="page-header">
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="header-column justify-content-start">
-                                <div class="header-logo">
-                                    <a href="index.html">
-                                        <img alt="Surftware" width="127" height="49"
-                                            src="assets/img/creacion-paginas-web.png">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="header-column justify-content-start">
-                                <h1>COTIZACIÓN</h1>
-                                <p class="lead">Equipo de Cómputo Escritorio</p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-2">
-                            <div class="header-column justify-content-start">
-                                <div class="header-logo">
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>    
-            </section>
+        
