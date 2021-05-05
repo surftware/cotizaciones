@@ -61,11 +61,11 @@ include ("includes/header.php");
 						<th class="p-0">
 							<div class="plan">
 								<div class="plan-title">
-									<span class="font-weight-light text-uppercase text-3">Server</span>
+									<span class="font-weight-light text-uppercase text-3"></span>	
 								</div>
 								<div class="plan-price">
-									<strong><em>$</em></strong>
-									<p>MXN</p>
+									<strong><em></em></strong>
+									<p></p>
 								</div>
 							</div>
 						</th>
@@ -73,23 +73,23 @@ include ("includes/header.php");
 							<div class="plan plan-most-popular bg-primary">
 								<div class="plan-title">
 									<span
-										class="d-block font-weight-light text-uppercase text-light text-3"></span>
+										class="d-block font-weight-light text-uppercase text-light text-3">Server (Solo CPU sin Monitor)</span>
 									<em class="text-light font-weight-light"></em>
 								</div>
 								<div class="plan-price">
-									<strong class="text-light"><em></em></strong>
-									<p class="text-light"></p>
+									<strong class="text-light"><em>$</em>8,000</strong>
+									<p class="text-light">MXN</p>
 								</div>
 							</div>
 						</th>
 						<th class="p-0">
 							<div class="plan">
 								<div class="plan-title">
-									<span class="font-weight-light text-uppercase text-3"></span>
+									<span class="font-weight-light text-uppercase text-3">Server (CPU + Monitor Nuevo)</span>
 								</div>
 								<div class="plan-price">
-									<strong><em></em></strong>
-									<p></p>
+									<strong><em>$</em>10,500</strong>
+									<p>MXN</p>
 								</div>
 							</div>
 						</th>
@@ -99,63 +99,63 @@ include ("includes/header.php");
 					<tr>
 						<td>Mother Board</td>
 						<td>Asus Prime A520M-K</td>
-						<td></td>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Procesador</td>
 						<td>AMD Athlon 3000G 2CPU/3GPU 3.5Ghz</td>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Almacenamiento</td>
 						<td>Disco 2 Tb SATA 3</td>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Memoria RAM</td>
 						<td>DDR4 ADATA 8Gb</td>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 					<tr>
 						<td>Gabinete</td>
 						<td>Yeyian Gaming PC Case Blade 2100</td>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Kit Mouse/Teclado</td>
 						<td>Logitech mk120</td>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Monitor</td>
-						<td>AOC 19.5"</td>
+						<td>AOC 19.5"</td>						
 						<td></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Armado e instalación Software</td>
 						<td>Ubuntu Server</td>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td class="plan-action"><a href="#"
 								class="btn btn-outline btn-rounded btn-3 btn-v-3 btn-primary font-weight-bold mt-2 mb-2">Más
 								Información<nav></nav></a></td>
 						<td class="plan-action"><a href=""
-								class="btn btn-rounded btn-3 btn-v-4 btn-primary font-weight-bold mt-2 mb-2">BUY
-								NOW</a></td>
+								class="btn btn-rounded btn-3 btn-v-4 btn-primary font-weight-bold mt-2 mb-2">Más Información
+								</a></td>
 						<td class="plan-action"><a href="#"
-								class="btn btn-outline btn-rounded btn-3 btn-v-3 btn-primary font-weight-bold mt-2 mb-2">BUY
-								NOW</a></td>
+								class="btn btn-outline btn-rounded btn-3 btn-v-3 btn-primary font-weight-bold mt-2 mb-2">Más Información
+								</a></td>
 					</tr>
 				</tbody>
 			</table>
