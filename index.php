@@ -42,7 +42,7 @@ include ("includes/header.php");
 		<div class="row mb-0">
 
 			<div class="col">
-				<h4>Computadoras armadas (PC)</h4>
+				<h4>8 Computadoras armadas (PC)</h4>
 				<hr class="mb-4">
 
 			</div>
@@ -61,10 +61,10 @@ include ("includes/header.php");
 						<th class="p-0">
 							<div class="plan">
 								<div class="plan-title">
-									<span class="font-weight-light text-uppercase text-3"></span>
+									<span class="font-weight-light text-uppercase text-3">Precio Unitario</span>
 								</div>
 								<div class="plan-price">
-									<strong><em></em></strong>
+									<strong><em>$</em>12,796</strong>
 									<p></p>
 								</div>
 							</div>
@@ -72,12 +72,12 @@ include ("includes/header.php");
 						<th class="p-0">
 							<div class="plan plan-most-popular bg-primary">
 								<div class="plan-title">
-									<span class="d-block font-weight-light text-uppercase text-light text-3">Computadora Armada
-										Surftware</span>
+									<span class="d-block font-weight-light text-uppercase text-light text-3"> 8 Computadoras Armadas
+										Surftware TOTAL:</span>
 									<em class="text-light font-weight-light"></em>
 								</div>
 								<div class="plan-price">
-									<strong class="text-light"><em>$</em>12,860</strong>
+									<strong class="text-light"><em>$</em>102,368</strong>
 									<p class="text-light">MXN</p>
 								</div>
 							</div>
@@ -99,54 +99,54 @@ include ("includes/header.php");
 					<tr>
 						<td>Mother Board</td>
 						<td>Gigabyte B450M DS3H</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 
 					</tr>
 					<tr>
 						<td>Procesador</td>
 						<td>AMD Athlon 3000G 2CPU/3GPU 3.5Ghz</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 
 					</tr>
 					<tr>
 						<td>Almacenamiento</td>
 						<td>Disco Duro 500GB</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 
 					</tr>
 					<tr>
 						<td>Memoria RAM</td>
 						<td>DDR4 8Gb</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 
 					</tr>
 					<tr>
 					<tr>
 						<td>Gabinete</td>
 						<td>Acteck AC929011</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 					</tr>
 					<tr>
 						<td>Fuente de poder</td>
 						<td>Kemex</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 					</tr>
 					<tr>
 						<td>Kit Mouse/Teclado</td>
 						<td>Logitech mk120</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 
 					</tr>
 					<tr>
 						<td>Monitor</td>
 						<td>AOC 19.5"</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 
 					</tr>
 					<tr>
 						<td>Armado e instalación Software</td>
 						<td>Windows 10</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i>8</td>
 
 					</tr>
 					<tr>
