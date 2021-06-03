@@ -36,6 +36,38 @@ include ("includes/header.php");
 		</div>
 	</section>
 
+<!-- 
+||------AJAX ------||
+
+<button id="boton">Cargar sitio</button>
+
+<div id="response">
+
+</div>
+
+<script>
+ function ajax(){
+	 const http = new XMLHttRequest ();
+	 const url = '/var/www/cotizaciones/cottizacion.php';
+
+	 http.onreadystatechange = function(){
+		 if(this.readyState == 4 && this.status == 200){
+			 console.log(this.responseText);
+			 document.getElementById("response").innerHTML = this.responseText;	 
+		 }
+	 } 
+
+	 http.open("GET", url);
+	 http.send();
+ }
+
+    document.getElementById("boton").addEventListener("click", function(){
+		ajax();
+	})
+</script>
+
+||------AJAX------|| -->
+
 
 	<div class="container pt-0">
 
@@ -176,6 +208,8 @@ include ("includes/header.php");
 <?php 
 	include ("includes/js.php");	
 	?>
+
+
 
 </body>
 
