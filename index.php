@@ -36,8 +36,8 @@ include ("includes/header.php");
 		</div>
 	</section>
 
-<!-- 
-||------AJAX ------||
+ 
+<!--||------AJAX ------||-->
 
 <button id="boton">Cargar sitio</button>
 
@@ -47,8 +47,8 @@ include ("includes/header.php");
 
 <script>
  function ajax(){
-	 const http = new XMLHttRequest ();
-	 const url = '/var/www/cotizaciones/cottizacion.php';
+	 const http = new XMLHttpRequest ();
+	 const url = '/var/www/cotizaciones/cotizacion.php';
 
 	 http.onreadystatechange = function(){
 		 if(this.readyState == 4 && this.status == 200){
@@ -63,10 +63,10 @@ include ("includes/header.php");
 
     document.getElementById("boton").addEventListener("click", function(){
 		ajax();
-	})
+	});
 </script>
 
-||------AJAX------|| -->
+<!--||------AJAX------|| -->
 
 
 	<div class="container pt-0">
