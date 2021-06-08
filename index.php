@@ -38,8 +38,9 @@ include ("includes/header.php");
 
  
 <!--||------AJAX ------||-->
+<h1>Cotizador</h1>
 
-<p id="Cotizar"></p>
+<p id="Cotizar">Cotizador</p>
 
 <button type="button" onclick="cambiar()">Cotizar</button>
 

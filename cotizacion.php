@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <meta charset = "utf-8">
-  <tittle>Cotizador Surftware</tittle>
+  <meta charset="UTF-8">
+  <tittle>Cotizador de Surftware></tittle>
  </head>
  <body>
-  <p>Cotizador</p>
+ <p1>Cotización</p1>
  </body>
 </html>

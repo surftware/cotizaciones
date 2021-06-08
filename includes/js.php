@@ -16,7 +16,7 @@
 <script src="vendor/vivus/vivus.min.js"></script>
 
 <!--Script Custom Rafa OMG-->
-<script src="main.js"></script>
+<script src="js/main.js"></script>
 
 
 
