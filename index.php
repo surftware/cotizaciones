@@ -39,13 +39,10 @@ include ("includes/header.php");
  
 <!--||------AJAX ------||-->
 
-<button id="boton">Cargar sitio</button>
+<p id="Cotizar"></p>
 
-<div id="response">
+<button type="button" onclick="cambiar()">Cotizar</button>
 
-</div>
-
-<script src="main.js"></script>
 
 <!--||------AJAX------|| -->
 

@@ -15,6 +15,11 @@
 <script src="vendor/vide/vide.min.js"></script>
 <script src="vendor/vivus/vivus.min.js"></script>
 
+<!--Script Custom Rafa OMG-->
+<script src="main.js"></script>
+
+
+
 <!-- Theme Base, Components and Settings -->
 <script src="js/theme.js"></script>
 
