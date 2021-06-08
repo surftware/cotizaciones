@@ -38,7 +38,7 @@ include ("includes/header.php");
 
  
 <!--||------AJAX ------||-->
-<h1>Cotizador</h1>
+<h1>Cotizador de piezas y equipos</h1>
 
 <p id="Cotizar">Cotizador</p>
 

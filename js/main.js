@@ -11,8 +11,8 @@ var xmlhttp;
     }
     xmlhttp.onreadystatechange = acciones;
     function acciones (){
-        if(xmlhttp.readyState == 4 && xmlhttp.Status == 200){
-            document.getElementById("Cotizar").innerHTML=xmlhttp.responseText;
+        if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+          document.getElementById("Cotizar").innerHTML=xmlhttp.responseText;
         }
     }
     xmlhttp.open("GET","cotizacion.php",true);
