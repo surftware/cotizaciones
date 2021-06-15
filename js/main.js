@@ -1,21 +1,27 @@
-function cambiar(){
+var resultado = document.getElementById("info");
 
-var xmlhttp;
+function cotizar(){
+
+    var xmlhttp;
     if (window.XMLHttpRequest){
-         //Navegadores Modernos
+        //Navegadores Modernos
         xmlhttp = new XMLHttpRequest();
-        console.log(xmlhttp)
-    }else if(window.ActiveXObject){
-        //Código para IE
+    }else if {
+        //Microsoft IE
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
-    xmlhttp.onreadystatechange = acciones;
-    function acciones (){
-        if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
-          document.getElementById("Cotizar").innerHTML=xmlhttp.responseText;
+
+    var a = document.getElementById("nombre").value;
+    var b = documnet.getElementById("apellido").value;
+    var informacionDelUsuario = "nombre" +a+"$apellido"+b;
+
+    xmlhttp.onreadystatechange = function {
+        if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var mensaje = xmlhttp.responseText;
+            resultado.innerHTML = mensaje;
         }
     }
-    xmlhttp.open("GET","cotizacion.php",true);
-    xmlhttp.send();
 
+    xmlhttp.open("GET", "cotizaion.php", true);
+    xmlhttp.send(informacionDelUsuario);
 }

@@ -42,8 +42,12 @@ include ("includes/header.php");
 
 <p id="Cotizar">Cotizador</p>
 
-<button type="button" onclick="cambiar()">Cotizar</button>
+Nombre: <input type="text" id="nombre"><br/></br/>
+Apellido: <input type="text" id="apellido" ><br/></br/>
 
+<button type="button" onclick="cotizar()">Cotizar</button>
+
+<div id="info"></div>
 
 <!--||------AJAX------|| -->
 
