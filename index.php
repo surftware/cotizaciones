@@ -37,19 +37,28 @@ include ("includes/header.php");
 	</section>
 
  
-<!--||------AJAX ------||-->
-<h1>Cotizador de piezas y equipos</h1>
+	<!--||------AJAX ------||-->
 
-<p id="Cotizar">Cotizador</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<form action="">
+					<label for="">NOMBRE:</label>
+					<input type="text" placeholder="Nombre" id="nombre"><br/><br/>
+					<label for="">APELLIDO:</label>
+					<input type="text" placeholder="Apellido" id="apellido"><br/><br/>
+					<label for="">EDAD:</label>
+					<input type="text" placeholder="Edad" id="edad"><br/><br/>
+				</form>
+				<button type="button" onclick="cambiar()">Cotizar</button>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+		<p id="demo"></p>
+	</div>
 
-Nombre: <input type="text" id="nombre"><br/></br/>
-Apellido: <input type="text" id="apellido" ><br/></br/>
-
-<button type="button" onclick="cotizar()">Cotizar</button>
-
-<div id="info"></div>
-
-<!--||------AJAX------|| -->
+	<!--||------AJAX------|| -->
 
 
 	<div class="container pt-0">
