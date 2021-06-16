@@ -36,26 +36,24 @@ include ("includes/header.php");
 		</div>
 	</section>
 
- 
+
 	<!--||------AJAX ------||-->
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="col-md-4">
-				<form action="">
+			<form>
+				<div class="form-group">
 					<label for="">NOMBRE:</label>
-					<input type="text" placeholder="Nombre" id="nombre"><br/><br/>
+					<input type="text" class="form-control" placeholder="Nombre" id="nombre"><br /><br />
 					<label for="">APELLIDO:</label>
-					<input type="text" placeholder="Apellido" id="apellido"><br/><br/>
+					<input type="text" class="form-control" placeholder="Apellido" id="apellido"><br /><br />
 					<label for="">EDAD:</label>
-					<input type="text" placeholder="Edad" id="edad"><br/><br/>
-				</form>
-				<button type="button" onclick="cambiar()">Cotizar</button>
-			</div>
-			<div class="col-md-4"></div>
+					<input type="text" class="form-control" placeholder="Edad" id="edad"><br /><br />
+				</div>
+				<button type="button"  class="btn btn-primary btm-sm" onclick="cambiar()">Cotizar</button>
+			</form>
+			<p id="demo"></p>
 		</div>
-		<p id="demo"></p>
 	</div>
 
 	<!--||------AJAX------|| -->
@@ -88,7 +86,7 @@ include ("includes/header.php");
 									<span class="font-weight-light text-uppercase text-3">Computadora
 										Básica</span>
 								</div>
-								<div class="plan-price">
+								<div class="plan-price" id="respuesta_precio">
 									<strong><em>$</em>8900</strong>
 									<p>MXN</p>
 								</div>

@@ -30,6 +30,7 @@
 		href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,900%7COpen+Sans:300,400,600,700,800"
 		rel="stylesheet" type="text/css">
 
+
 	<!-- Vendor CSS -->
 	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">

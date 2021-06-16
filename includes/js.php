@@ -19,7 +19,6 @@
 <script src="js/main.js"></script>
 
 
-
 <!-- Theme Base, Components and Settings -->
 <script src="js/theme.js"></script>
 

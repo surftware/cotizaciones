@@ -1,4 +1,4 @@
-var resultado = document.getElementById("demo");
+var resultado = document.getElementById("respuesta_precio");
 
 function cambiar() {
 
