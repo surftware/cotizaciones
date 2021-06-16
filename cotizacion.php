@@ -1,13 +1,14 @@
 <?php
 
-$nombre = $_POST['nombre'];
-$apellido = $_POST['apellido'];
+$nombre = $_POST["nombre"];
+$apellido = $_POST["apellido"];
+$edad = $_POST["edad"];
 
-if(empty($nombre) || empty($apellido)){
-    echo "Por favor proporcione su nombre y apellido";
+if(empty($nombre) || empty($apellido) || empty($edad)){
+    echo "Por favor ingrese todos sus datos";
 }else{
-    echo "Gracias ". $nombre . " ". $apellido ."!";
+    echo "Gracias ". $nombre . " ". $apellido. " ". "tienes ". $edad. " años";
 }
 
-?>
 
+?>
