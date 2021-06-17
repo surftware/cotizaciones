@@ -43,18 +43,28 @@ include ("includes/header.php");
 		<div class="row">
 			<form>
 				<div class="form-group">
-					<label for="">NOMBRE:</label>
-					<input type="text" class="form-control" placeholder="Nombre" id="nombre"><br /><br />
-					<label for="">APELLIDO:</label>
-					<input type="text" class="form-control" placeholder="Apellido" id="apellido"><br /><br />
-					<label for="">EDAD:</label>
-					<input type="text" class="form-control" placeholder="Edad" id="edad"><br /><br />
+					<label for="">MOTHERBOARD:</label>
+					<input type="text" class="border" class="form-control" placeholder="Motherboard" id="mother">
 				</div>
-				<button type="button"  class="btn btn-primary btm-sm" onclick="cambiar()">Cotizar</button>
-			</form>
-			<p id="demo"></p>
+				<div class="form group">
+					<label for="">PROCESADOR:</label>
+					<input type="text" class="border" class="form-control" placeholder="Procesador"
+						id="procesa">
+				</div>
+				<div class="form-group">
+					<label for="">ALMACENAMIENTO:</label>
+					<input type="text" class="border" class="form-control" placeholder="ALMACENAMIENTO" id="almac">
+				</div>
+				<div class="form group">
+					<label for="">MEMORIA RAM:</label>
+					<input type="text" class="border" class="form-control" placeholder="MEMORIA RAM" id="">
+				</div>
 		</div>
+		<button type="button" class="btn btn-primary btm-sm" onclick="cambiar()">Cotizar</button><br /><br />
+		</form>
+		<p id="demo"></p>
 	</div>
+
 
 	<!--||------AJAX------|| -->
 
