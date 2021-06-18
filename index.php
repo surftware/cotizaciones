@@ -41,29 +41,56 @@ include ("includes/header.php");
 
 	<div class="container">
 		<div class="row">
-			<form>
-				<div class="form-group">
-					<label for="">MOTHERBOARD:</label>
-					<input type="text" class="border" class="form-control" placeholder="Motherboard" id="mother">
-				</div>
-				<div class="form group">
-					<label for="">PROCESADOR:</label>
-					<input type="text" class="border" class="form-control" placeholder="Procesador"
-						id="procesa">
-				</div>
-				<div class="form-group">
-					<label for="">ALMACENAMIENTO:</label>
-					<input type="text" class="border" class="form-control" placeholder="ALMACENAMIENTO" id="almac">
-				</div>
-				<div class="form group">
-					<label for="">MEMORIA RAM:</label>
-					<input type="text" class="border" class="form-control" placeholder="MEMORIA RAM" id="">
-				</div>
+		    <div class="col">
+			    <h4>Cotizador</h>
+		    	<hr class="mb-4">
+			</div>
 		</div>
-		<button type="button" class="btn btn-primary btm-sm" onclick="cambiar()">Cotizar</button><br /><br />
-		</form>
-		<p id="demo"></p>
 	</div>
+
+    <div class="container">
+	    <div class="row">
+			<div class="col-md-6">
+				<form class="form-outline">
+					<div class="form-group">
+						<label class="">MOTHERBOARD:</label>
+						<input type="text" class="border" class="form-control" placeholder="Motherboard" id="mother">
+					</div>
+					<div class="form-group">
+						<label class="">PROCESADOR:</label>
+						<input type="text" class="border" class="form-control" placeholder="Procesador" id="procesa">
+					</div>
+					<div class="form-group">
+						<label for="">ALMACENAMIENTO:</label>
+						<input type="text" class="border" class="form-control" placeholder="Almacenamiento" id="almac">
+					</div>
+					<div class="form-group">
+						<label class="">MEMORIA RAM:</label>
+						<input type="text" class="border" class="form-control" placeholder="Memoria RAM" id="RAM">
+					</div>
+				</form>
+			</div>
+			<div class="col-md-6">
+				<form class="form-outline">
+					<div class="form-group">
+						<label class="">GABINETE:</label>
+						<input type="text" class="border" class="form-control" placeholder="Gabinete" id="Gabinete">
+					</div>
+					<div class="form-group">
+						<label class="">MOUSE Y TECLADO:</label>
+						<input type="text" class="border" class="form-control" placeholder="Mouse y Teclado" id="Kit">
+					</div>
+					<div class="form-group">
+						<label class="">MONITOR:</label>
+						<input type="text" class="border" class="form-control" placeholder="Monitor" id="Monitor">
+					</div>
+				</form>
+				<button type="button" class="btn btn-primary btm-sm" onclick="cambiar()">Cotizar</button>
+			</div>
+		</div>
+	</div>
+	<p id="demo"></p>
+
 
 
 	<!--||------AJAX------|| -->
