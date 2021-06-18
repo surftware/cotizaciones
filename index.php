@@ -41,8 +41,8 @@ include ("includes/header.php");
 
 	<div class="container">
 		<div class="row">
-		    <div class="col">
-			    <h4>Cotizador</h>
+		    <div class="col-sm-12 col-md-12">
+			    <h4 class="text-center">Cotizador</h>
 		    	<hr class="mb-4">
 			</div>
 		</div>
@@ -50,42 +50,42 @@ include ("includes/header.php");
 
     <div class="container">
 	    <div class="row">
-			<div class="col-md-6">
+			<div class="col-sm-12 col-md-6">
 				<form class="form-outline">
-					<div class="form-group">
-						<label class="">MOTHERBOARD:</label>
+					<div class="form-group text-center">
+						<label class="w-25">Motherboard:</label>
 						<input type="text" class="border" class="form-control" placeholder="Motherboard" id="mother">
 					</div>
-					<div class="form-group">
-						<label class="">PROCESADOR:</label>
+					<div class="form-group text-center">
+						<label class="w-25">Procesador:</label>
 						<input type="text" class="border" class="form-control" placeholder="Procesador" id="procesa">
 					</div>
-					<div class="form-group">
-						<label for="">ALMACENAMIENTO:</label>
+					<div class="form-group text-center">
+						<label class="w-25">Almacenamiento:</label>
 						<input type="text" class="border" class="form-control" placeholder="Almacenamiento" id="almac">
 					</div>
-					<div class="form-group">
-						<label class="">MEMORIA RAM:</label>
+					<div class="form-group text-center">
+						<label class="w-25">Memoria RAM:</label>
 						<input type="text" class="border" class="form-control" placeholder="Memoria RAM" id="RAM">
 					</div>
 				</form>
 			</div>
-			<div class="col-md-6">
+			<div class="col-sm-12 col-md-6">
 				<form class="form-outline">
-					<div class="form-group">
-						<label class="">GABINETE:</label>
+					<div class="form-group text-center">
+						<label class="w-25">Gabinete:</label>
 						<input type="text" class="border" class="form-control" placeholder="Gabinete" id="Gabinete">
 					</div>
-					<div class="form-group">
-						<label class="">MOUSE Y TECLADO:</label>
+					<div class="form-group text-center">
+						<label class="w-25">Mouse <br>c/ Teclado:</label>
 						<input type="text" class="border" class="form-control" placeholder="Mouse y Teclado" id="Kit">
 					</div>
-					<div class="form-group">
-						<label class="">MONITOR:</label>
-						<input type="text" class="border" class="form-control" placeholder="Monitor" id="Monitor">
+					<div class="form-group text-center">
+						<label class="w-25">Monitor:</label>
+						<input type="text" class="border" class="form-control" placeholder="Monitor" id=pantalla">
 					</div>
 				</form>
-				<button type="button" class="btn btn-primary btm-sm" onclick="cambiar()">Cotizar</button>
+				<button type="button" class="btn btn-primary btm-sm d-block mx-auto" onclick="cambiar()">Cotizar</button>
 			</div>
 		</div>
 	</div>
@@ -123,7 +123,7 @@ include ("includes/header.php");
 									<span class="font-weight-light text-uppercase text-3">Computadora
 										Básica</span>
 								</div>
-								<div class="plan-price" id="respuesta_precio">
+								<div class="plan-price" id="respuestaPrecio">
 									<strong><em>$</em>8900</strong>
 									<p>MXN</p>
 								</div>
