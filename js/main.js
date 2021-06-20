@@ -1,4 +1,6 @@
-var resultado = document.getElementById("respuesta_precio");
+/********     Cotizador Ajax    *******/
+
+var resultado = document.getElementById("respuestaMother");
 
 function cambiar() {
 
@@ -13,17 +15,16 @@ function cambiar() {
     }
 
     var motherBoard     = document.getElementById("tarjetaMadre").value;
-    var procesor        = document.getElementById("procesador").value;
-    var storage         = document.getElementById("discoDuro").value;
-    var ram             = document.getElementById("memoriaRam").value;
-    var cabinet         = document.getElementById("gabinete").value;
-    var peripherals     = document.getElementById("perifericos").value;
+    /*var procesor        = document.getElementById("procesador").value;
+    var storage         = document.getElementById("almac").value;
+    var ram             = document.getElementById("RAM").value;
+    var cabinet         = document.getElementById("Gabinete").value;
+    var peripherals     = document.getElementById("Kit").value;
     var monitor         = document.getElementById("pantalla").value;
-    var workforce       = document.getElementById("manoObra").value;
+    var workforce       = document.getElementById("manoObra").value;*/
 
-    //var d = "nombre="+a+"&apellido="+b+"&edad="+c;
-
-
+    var respuesta1 = "tarjetaMadre="+motherBoard;
+    
     xmlhttp.onreadystatechange = acciones;
 
     function acciones() {
@@ -34,9 +35,8 @@ function cambiar() {
     }
     xmlhttp.open("POST", "cotizacion.php", true);
     xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xmlhttp.send(monitor);
-
-
+    xmlhttp.send(respuesta1);
     
-
 }
+
+/********     Cotizador Ajax    ********/

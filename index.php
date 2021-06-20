@@ -41,57 +41,146 @@ include ("includes/header.php");
 
 	<div class="container">
 		<div class="row">
-		    <div class="col-sm-12 col-md-12">
-			    <h4 class="text-center">Cotizador</h>
-		    	<hr class="mb-4">
+			<div class="col-sm-12 col-md-12">
+				<h3 class="text-center">Cotizador</h>
+					<hr class="mb-4">
 			</div>
 		</div>
 	</div>
 
-    <div class="container">
-	    <div class="row">
+	<div class="container mb-4">
+		<div class="row">
 			<div class="col-sm-12 col-md-6">
 				<form class="form-outline">
-					<div class="form-group text-center">
-						<label class="w-25">Motherboard:</label>
-						<input type="text" class="border" class="form-control" placeholder="Motherboard" id="mother">
+					<div class="form-row">
+						<div class="col-md-12 mb-3">
+							<h4>Motherboard:</h>
+						</div>
+						<div class="col-md-6">
+						   <select class="form-select w-100" id="tarjetaMadre">
+						      <option selected></option>
+							  <option value="asus">asus</option>
+						   </select>
+							<!--<input type="text" class="border" class="form-control" size="25" placeholder="Seleccionar"
+								id="tarjetaMadre">-->
+						</div>
+						<div class="form-group col-md-6">
+							<input type="text" class="border" class="form-control" size="10" placeholder="Precio">
+						</div>
 					</div>
-					<div class="form-group text-center">
-						<label class="w-25">Procesador:</label>
-						<input type="text" class="border" class="form-control" placeholder="Procesador" id="procesa">
+					<div class="form-row">
+						<div class="col-md-12 mb-3">
+							<h4>Procesador:</h4>
+						</div>
+						<div class="col-md-6">
+							<select class="form-select w-100" id="procesador">
+								<option selected>Seleccionar</option>
+								<option value="1">AMD Athlon 3000G 2CPU/3GPU 3.5Ghz</option>
+							</select>
+						</div>
+						<div class="form-group col-md-6">
+							<input type="text" class="border" class="form-control" size="10" placeholder="Precio">
+						</div>
 					</div>
-					<div class="form-group text-center">
-						<label class="w-25">Almacenamiento:</label>
-						<input type="text" class="border" class="form-control" placeholder="Almacenamiento" id="almac">
+					<div class="form-row">
+						<div class="col-md-12 mb-3">
+							<h4>Almacenamiento:</h4>
+						</div>
+						<div class="col-md-6">
+							<select class="form-select w-100" id="almac">
+								<option selected>Seleccionar</option>
+								<option value="1">WD 500Gb SATA</option>
+							</select>
+						</div>
+						<div class="form-group col-md-6">
+							<input type="text" class="border" class="form-control" size="10" placeholder="Precio">
+						</div>
 					</div>
-					<div class="form-group text-center">
-						<label class="w-25">Memoria RAM:</label>
-						<input type="text" class="border" class="form-control" placeholder="Memoria RAM" id="RAM">
+					<div class="form-row">
+						<div class="col-md-12 mb-3">
+							<h4>Memoria RAM:</h4>
+						</div>
+						<div class="col-md-6">
+							<select class="form-select w-100" id="RAM">
+								<option selected>Seleccionar</option>
+								<option value="1">ADATA DDR4 8Gb</option>
+							</select>
+						</div>
+						<div class="form-group col-md-6">
+							<input type="text" class="border" class="form-control" size="10" placeholder="Precio">
+						</div>
 					</div>
 				</form>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<form class="form-outline">
-					<div class="form-group text-center">
-						<label class="w-25">Gabinete:</label>
-						<input type="text" class="border" class="form-control" placeholder="Gabinete" id="Gabinete">
+					<div class="form-row">
+						<div class="col-md-12 mb-3">
+							<h4>Gabinete:</h>
+						</div>
+						<div class="col-md-6">
+							<select class="form-select w-100" id="Gabinete">
+								<option selected>Seleccionar</option>
+								<option value="1">Yeyian Gaming PC Case Blade 2100</option>
+							</select>
+						</div>
+						<div class="form-group col-md-6">
+							<input type="text" class="border" class="form-control" size="10" placeholder="Precio">
+						</div>
 					</div>
-					<div class="form-group text-center">
-						<label class="w-25">Mouse <br>c/ Teclado:</label>
-						<input type="text" class="border" class="form-control" placeholder="Mouse y Teclado" id="Kit">
-					</div>
-					<div class="form-group text-center">
-						<label class="w-25">Monitor:</label>
-						<input type="text" class="border" class="form-control" placeholder="Monitor" id=pantalla">
-					</div>
+					<form class="form-outline">
+						<div class="form-row">
+							<div class="col-md-12 mb-3">
+								<h4>Mouse y Teclado:</h>
+							</div>
+							<div class="form-group col-md-6">
+								<select class="form-select w-100" id="Kit">
+									<option selected>Seleccionar</option>
+									<option value="1">Kit Logitech mk120</option>
+								</select>
+							</div>
+							<div class="form-group col-md-6">
+								<input type="text" class="border" class="form-control" size="10" placeholder="Precio">
+							</div>
+						</div>
+						<form class="form-outline">
+							<div class="form-row">
+								<div class="col-md-12 mb-3">
+									<h4>Monitor:</h>
+								</div>
+								<div class="form-group col-md-6">
+									<select class="form-select w-100" id="pantalla">
+										<option selected>Seleccionar</option>
+										<option value="1">Monitor AOC 19.5"</option>
+									</select>
+								</div>
+								<div class="form-group col-md-6">
+									<input type="text" class="border" class="form-control" size="10"
+										placeholder="Precio">
+								</div>
+								<div class="col-md-12 mb-3">
+									<h4>Armado e Instalación:</h>
+								</div>
+								<div class="form-group col-md-6">
+									<select class="form-select w-100" id="manoObra">
+										<option selected>Seleccionar</option>
+										<option value="1">W10 c/Antivirus lista para usarse</option>
+									</select>
+								</div>
+								<div class="form-group col-md-6">
+									<input type="text" class="border" class="form-control" size="10"
+										placeholder="Precio">
+								</div>
+
+							</div>
+						</form>
+					</form>
 				</form>
-				<button type="button" class="btn btn-primary btm-sm d-block mx-auto" onclick="cambiar()">Cotizar</button>
 			</div>
 		</div>
 	</div>
-	<p id="demo"></p>
 
-
+	<button type="button" class="btn btn-primary btm-sm d-block mx-auto" onclick="cambiar()">Cotizar</button>
 
 	<!--||------AJAX------|| -->
 
@@ -101,6 +190,7 @@ include ("includes/header.php");
 		<div class="row mb-0">
 
 			<div class="col">
+				<hr class="mt-4">
 				<h4>Computadoras armadas (PC)</h4>
 				<hr class="mb-4">
 
@@ -158,7 +248,7 @@ include ("includes/header.php");
 				<tbody>
 					<tr>
 						<td>Mother Board</td>
-						<td>Asus Prime A520M-K</td>
+						<td id="respuestaMother"></td>
 						<td><i class="fas fa-check text-4"></i></td>
 						<td></td>
 					</tr>
