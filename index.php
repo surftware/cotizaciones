@@ -64,7 +64,7 @@ include ("includes/header.php");
 									<span class="font-weight-light text-uppercase text-3">Básica</span>
 								</div>
 								<div class="plan-price">
-									<strong><em>$6550</em></strong>
+									<strong><em>$7000</em></strong>
 									<p>MXN</p>
 								</div>
 							</div>
@@ -73,11 +73,11 @@ include ("includes/header.php");
 							<div class="plan plan-most-popular bg-primary">
 								<div class="plan-title">
 									<span
-										class="d-block font-weight-light text-uppercase text-light text-3">Max Performance</span>
+										class="d-block font-weight-light text-uppercase text-light text-3">Mayor Rendimiento</span>
 									<em class="text-light font-weight-light"></em>
 								</div>
 								<div class="plan-price">
-									<strong class="text-light"><em>$7700</em></strong>
+									<strong class="text-light"><em>$8300</em></strong>
 									<p class="text-light">MXN</p>
 								</div>
 							</div>
@@ -88,7 +88,7 @@ include ("includes/header.php");
 									<span class="font-weight-light text-uppercase text-3">Sin monitor</span>
 								</div>
 								<div class="plan-price">
-									<strong><em>$5400</em></strong>
+									<strong><em>$6100</em></strong>
 									<p>MXN</p>
 								</div>
 							</div>
