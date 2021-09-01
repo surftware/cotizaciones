@@ -64,7 +64,7 @@ include ("includes/header.php");
 									<span class="font-weight-light text-uppercase text-3">Básica</span>
 								</div>
 								<div class="plan-price">
-									<strong><em>$7000</em></strong>
+									<strong><em>$7500</em></strong>
 									<p>MXN</p>
 								</div>
 							</div>
@@ -77,7 +77,7 @@ include ("includes/header.php");
 									<em class="text-light font-weight-light"></em>
 								</div>
 								<div class="plan-price">
-									<strong class="text-light"><em>$8300</em></strong>
+									<strong class="text-light"><em>$8500</em></strong>
 									<p class="text-light">MXN</p>
 								</div>
 							</div>
@@ -88,7 +88,7 @@ include ("includes/header.php");
 									<span class="font-weight-light text-uppercase text-3">Sin monitor</span>
 								</div>
 								<div class="plan-price">
-									<strong><em>$6100</em></strong>
+									<strong><em>$6250</em></strong>
 									<p>MXN</p>
 								</div>
 							</div>
@@ -111,12 +111,12 @@ include ("includes/header.php");
 					<tr>
 						<td>Almacenamiento</td>
 						<td>Disco 500Gb WesternDigital</td>
-						<td>Disco 1Tb WesternBlue</td>
+						<td>Disco 1Tb Seagate</td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Memoria RAM</td>
-						<td>DDR4 ADATA 4Gb</td>
+						<td>DDR4 ADATA 8Gb</td>
 						<td>DDR4 ADATA 8Gb</td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
@@ -124,7 +124,7 @@ include ("includes/header.php");
 					<tr>
 						<td>Gabinete</td>
 						<td>Acteck Performance</td>
-						<td><i class="fas fa-check text-4"></i></td>
+						<td>Acteck Kiruna</td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
