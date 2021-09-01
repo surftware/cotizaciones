@@ -61,10 +61,10 @@ include ("includes/header.php");
 						<th class="p-0">
 							<div class="plan">
 								<div class="plan-title">
-									<span class="font-weight-light text-uppercase text-3">Server</span>
+									<span class="font-weight-light text-uppercase text-3">Básica</span>
 								</div>
 								<div class="plan-price">
-									<strong><em>$</em></strong>
+									<strong><em>$6550</em></strong>
 									<p>MXN</p>
 								</div>
 							</div>
@@ -73,23 +73,23 @@ include ("includes/header.php");
 							<div class="plan plan-most-popular bg-primary">
 								<div class="plan-title">
 									<span
-										class="d-block font-weight-light text-uppercase text-light text-3"></span>
+										class="d-block font-weight-light text-uppercase text-light text-3">Max Performance</span>
 									<em class="text-light font-weight-light"></em>
 								</div>
 								<div class="plan-price">
-									<strong class="text-light"><em></em></strong>
-									<p class="text-light"></p>
+									<strong class="text-light"><em>$7700</em></strong>
+									<p class="text-light">MXN</p>
 								</div>
 							</div>
 						</th>
 						<th class="p-0">
 							<div class="plan">
 								<div class="plan-title">
-									<span class="font-weight-light text-uppercase text-3"></span>
+									<span class="font-weight-light text-uppercase text-3">Sin monitor</span>
 								</div>
 								<div class="plan-price">
-									<strong><em></em></strong>
-									<p></p>
+									<strong><em>$5400</em></strong>
+									<p>MXN</p>
 								</div>
 							</div>
 						</th>
@@ -98,51 +98,51 @@ include ("includes/header.php");
 				<tbody>
 					<tr>
 						<td>Mother Board</td>
-						<td>Asus Prime A520M-K</td>
-						<td></td>
-						<td></td>
+						<td>Asus Prime A320M-K</td>
+						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Procesador</td>
+						<td>AMD A6 9500E Bristol</td>
 						<td>AMD Athlon 3000G 2CPU/3GPU 3.5Ghz</td>
-						<td></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Almacenamiento</td>
-						<td>Disco 2 Tb SATA 3</td>
-						<td></td>
+						<td>Disco 500Gb WesternDigital</td>
+						<td>Disco 1Tb WesternBlue</td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Memoria RAM</td>
+						<td>DDR4 ADATA 4Gb</td>
 						<td>DDR4 ADATA 8Gb</td>
-						<td></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 					<tr>
 						<td>Gabinete</td>
-						<td>Yeyian Gaming PC Case Blade 2100</td>
-						<td></td>
+						<td>Acteck Performance</td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Kit Mouse/Teclado</td>
 						<td>Logitech mk120</td>
-						<td></td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Monitor</td>
-						<td>AOC 19.5"</td>
-						<td></td>
+						<td>Acer 19.5"</td>
 						<td><i class="fas fa-check text-4"></i></td>
+						<td><i class="fas fa-times text-4"></i></td>
 					</tr>
 					<tr>
 						<td>Armado e instalación Software</td>
-						<td>Ubuntu Server</td>
-						<td></td>
+						<td>W10 Pro</td>
+						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-check text-4"></i></td>
 					</tr>
 					<tr>
