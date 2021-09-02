@@ -72,8 +72,8 @@ include ("includes/header.php");
 						<th class="p-0">
 							<div class="plan plan-most-popular bg-primary">
 								<div class="plan-title">
-									<span
-										class="d-block font-weight-light text-uppercase text-light text-3">Mayor Rendimiento</span>
+									<span class="d-block font-weight-light text-uppercase text-light text-3">Mayor
+										Rendimiento</span>
 									<em class="text-light font-weight-light"></em>
 								</div>
 								<div class="plan-price">
@@ -135,7 +135,7 @@ include ("includes/header.php");
 					</tr>
 					<tr>
 						<td>Monitor</td>
-						<td>Acer 19.5"</td>
+						<td>AOC 19.5"</td>
 						<td><i class="fas fa-check text-4"></i></td>
 						<td><i class="fas fa-times text-4"></i></td>
 					</tr>
@@ -147,15 +147,13 @@ include ("includes/header.php");
 					</tr>
 					<tr>
 						<td></td>
-						<td class="plan-action"><a href="#"
+						<td class="plan-action"><a href=""
 								class="btn btn-outline btn-rounded btn-3 btn-v-3 btn-primary font-weight-bold mt-2 mb-2">Más
 								Información<nav></nav></a></td>
 						<td class="plan-action"><a href=""
-								class="btn btn-rounded btn-3 btn-v-4 btn-primary font-weight-bold mt-2 mb-2">BUY
-								NOW</a></td>
-						<td class="plan-action"><a href="#"
-								class="btn btn-outline btn-rounded btn-3 btn-v-3 btn-primary font-weight-bold mt-2 mb-2">BUY
-								NOW</a></td>
+								class="btn btn-rounded btn-3 btn-v-4 btn-primary font-weight-bold mt-2 mb-2">Más Información</a></td>
+						<td class="plan-action"><a href=""
+								class="btn btn-outline btn-rounded btn-3 btn-v-3 btn-primary font-weight-bold mt-2 mb-2">Más Información</a></td>
 					</tr>
 				</tbody>
 			</table>
@@ -163,6 +161,360 @@ include ("includes/header.php");
 		</div>
 
 	</div>
+<!--Galería de imágenes-->
+	<div class="container mb-5 pb-3">
+
+		<div class="row">
+
+			<div class="col">
+				<h4>El producto</h4>
+				<hr class="mb-5">
+
+			</div>
+
+		</div>
+
+		<div class="row align-items-center mb-4">
+			<div class="col-12 col-md-8 col-lg-9">
+				<ul id="portfolioLoadMoreFilter"
+					class="nav sort-source justify-content-center justify-content-md-start mb-4 mb-md-0"
+					data-sort-id="portfolio" data-option-key="filter"
+					data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
+					<li class="nav-item" data-option-value="*"><a class="nav-link active" href="#">Básica</a></li>
+
+					<li class="nav-item" data-option-value=".brands"><a class="nav-link text-uppercase"
+							href="#"></a></li>
+
+					<li class="nav-item" data-option-value=".design"><a class="nav-link text-uppercase"
+							href="#"></a></li>
+
+					<li class="nav-item" data-option-value=".web"><a class="nav-link text-uppercase" href="#"></a>
+					</li>
+
+					<li class="nav-item" data-option-value=".ads"><a class="nav-link text-uppercase" href="#"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 pl-3">
+				<div class="sort-destination-loader sort-destination-loader-showing">
+					<ul id="portfolioLoadMoreWrapper" class="portfolio-list sort-destination" data-sort-id="portfolio"
+						data-total-pages="3">
+						<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item brands">
+							<div class="portfolio-item hover-effect-3d appear-animation"
+								data-appear-animation="fadeInUpShorter" data-plugin-options="{'accY' : -50}">
+								<a href="portfolio-detail.html">
+									<span class="image-frame image-frame-style-1 image-frame-effect-1">
+										<span class="image-frame-wrapper">
+											<img src="assets/asusMk.png" class="img-fluid" alt="">
+											<span class="image-frame-inner-border"></span>
+											<span class="image-frame-action">
+												<span class="image-frame-action-icon">
+													<i class="lnr lnr-link text-color-light"></i>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</li>
+						<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item ads">
+							<div class="portfolio-item hover-effect-3d appear-animation"
+								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"
+								data-plugin-options="{'accY' : -50}">
+								<a href="portfolio-detail.html">
+									<span class="image-frame image-frame-style-1 image-frame-effect-1">
+										<span class="image-frame-wrapper">
+											<img src="assets/amdA6.jpg" class="img-fluid" alt="">
+											<span class="image-frame-inner-border"></span>
+											<span class="image-frame-action">
+												<span class="image-frame-action-icon">
+													<i class="lnr lnr-link text-color-light"></i>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</li>
+						<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item design">
+							<div class="portfolio-item hover-effect-3d appear-animation"
+								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"
+								data-plugin-options="{'accY' : -50}">
+								<a href="portfolio-detail.html">
+									<span class="image-frame image-frame-style-1 image-frame-effect-1">
+										<span class="image-frame-wrapper">
+											<img src="assets/westernDigital.jpg" class="img-fluid" alt="">
+											<span class="image-frame-inner-border"></span>
+											<span class="image-frame-action">
+												<span class="image-frame-action-icon">
+													<i class="lnr lnr-link text-color-light"></i>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</li>
+						<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item brands">
+							<div class="portfolio-item hover-effect-3d appear-animation"
+								data-appear-animation="fadeInUpShorter" data-plugin-options="{'accY' : -50}">
+								<a href="portfolio-detail.html">
+									<span class="image-frame image-frame-style-1 image-frame-effect-1">
+										<span class="image-frame-wrapper">
+											<img src="assets/adata8Gb.jpg" class="img-fluid" alt="">
+											<span class="image-frame-inner-border"></span>
+											<span class="image-frame-action">
+												<span class="image-frame-action-icon">
+													<i class="lnr lnr-link text-color-light"></i>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</li>
+						<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item web">
+							<div class="portfolio-item hover-effect-3d appear-animation"
+								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"
+								data-plugin-options="{'accY' : -50}">
+								<a href="portfolio-detail.html">
+									<span class="image-frame image-frame-style-1 image-frame-effect-1">
+										<span class="image-frame-wrapper">
+											<img src="assets/acteckPerformance.jpg" class="img-fluid" alt="">
+											<span class="image-frame-inner-border"></span>
+											<span class="image-frame-action">
+												<span class="image-frame-action-icon">
+													<i class="lnr lnr-link text-color-light"></i>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</li>
+						<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item ads">
+							<div class="portfolio-item hover-effect-3d appear-animation"
+								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"
+								data-plugin-options="{'accY' : -50}">
+								<a href="portfolio-detail.html">
+									<span class="image-frame image-frame-style-1 image-frame-effect-1">
+										<span class="image-frame-wrapper">
+											<img src="assets/monitorAcer.jpg" class="img-fluid" alt="">
+											<span class="image-frame-inner-border"></span>
+											<span class="image-frame-action">
+												<span class="image-frame-action-icon">
+													<i class="lnr lnr-link text-color-light"></i>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item ads">
+							<div class="portfolio-item hover-effect-3d appear-animation"
+								data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"
+								data-plugin-options="{'accY' : -50}">
+								<a href="portfolio-detail.html">
+									<span class="image-frame image-frame-style-1 image-frame-effect-1">
+										<span class="image-frame-wrapper">
+											<img src="assets/logitechMk120.jpg" class="img-fluid" alt="">
+											<span class="image-frame-inner-border"></span>
+											<span class="image-frame-action">
+												<span class="image-frame-action-icon">
+													<i class="lnr lnr-link text-color-light"></i>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</li>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container mb-5 pb-3">
+
+<div class="row">
+
+	<div class="col">		
+		<hr class="mb-5">
+	</div>
+
+</div>
+
+<div class="row align-items-center mb-4">
+	<div class="col-12 col-md-8 col-lg-9">
+		<ul id="portfolioLoadMoreFilter"
+			class="nav sort-source justify-content-center justify-content-md-start mb-4 mb-md-0"
+			data-sort-id="portfolio" data-option-key="filter"
+			data-plugin-options="{'layoutMode': 'fitRows', 'filter': '*'}">
+			<li class="nav-item" data-option-value="*"><a class="nav-link active" href="#">Mayor Rendimiento</a></li>
+
+			<li class="nav-item" data-option-value=".brands"><a class="nav-link text-uppercase"
+					href="#"></a></li>
+
+			<li class="nav-item" data-option-value=".design"><a class="nav-link text-uppercase"
+					href="#"></a></li>
+
+			<li class="nav-item" data-option-value=".web"><a class="nav-link text-uppercase" href="#"></a>
+			</li>
+
+			<li class="nav-item" data-option-value=".ads"><a class="nav-link text-uppercase" href="#"></a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="row">
+	<div class="col-12 pl-3">
+		<div class="sort-destination-loader sort-destination-loader-showing">
+			<ul id="portfolioLoadMoreWrapper" class="portfolio-list sort-destination" data-sort-id="portfolio"
+				data-total-pages="3">
+				<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item brands">
+					<div class="portfolio-item hover-effect-3d appear-animation"
+						data-appear-animation="fadeInUpShorter" data-plugin-options="{'accY' : -50}">
+						<a href="portfolio-detail.html">
+							<span class="image-frame image-frame-style-1 image-frame-effect-1">
+								<span class="image-frame-wrapper">
+									<img src="assets/asusMk.png" class="img-fluid" alt="">
+									<span class="image-frame-inner-border"></span>
+									<span class="image-frame-action">
+										<span class="image-frame-action-icon">
+											<i class="lnr lnr-link text-color-light"></i>
+										</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item ads">
+					<div class="portfolio-item hover-effect-3d appear-animation"
+						data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"
+						data-plugin-options="{'accY' : -50}">
+						<a href="portfolio-detail.html">
+							<span class="image-frame image-frame-style-1 image-frame-effect-1">
+								<span class="image-frame-wrapper">
+									<img src="assets/amdRadeon.jpg" class="img-fluid" alt="">
+									<span class="image-frame-inner-border"></span>
+									<span class="image-frame-action">
+										<span class="image-frame-action-icon">
+											<i class="lnr lnr-link text-color-light"></i>
+										</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item design">
+					<div class="portfolio-item hover-effect-3d appear-animation"
+						data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"
+						data-plugin-options="{'accY' : -50}">
+						<a href="portfolio-detail.html">
+							<span class="image-frame image-frame-style-1 image-frame-effect-1">
+								<span class="image-frame-wrapper">
+									<img src="assets/seagateSkyhawk.jpg" class="img-fluid" alt="">
+									<span class="image-frame-inner-border"></span>
+									<span class="image-frame-action">
+										<span class="image-frame-action-icon">
+											<i class="lnr lnr-link text-color-light"></i>
+										</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item brands">
+					<div class="portfolio-item hover-effect-3d appear-animation"
+						data-appear-animation="fadeInUpShorter" data-plugin-options="{'accY' : -50}">
+						<a href="portfolio-detail.html">
+							<span class="image-frame image-frame-style-1 image-frame-effect-1">
+								<span class="image-frame-wrapper">
+									<img src="assets/adata8Gb.jpg" class="img-fluid" alt="">
+									<span class="image-frame-inner-border"></span>
+									<span class="image-frame-action">
+										<span class="image-frame-action-icon">
+											<i class="lnr lnr-link text-color-light"></i>
+										</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item web">
+					<div class="portfolio-item hover-effect-3d appear-animation"
+						data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200"
+						data-plugin-options="{'accY' : -50}">
+						<a href="portfolio-detail.html">
+							<span class="image-frame image-frame-style-1 image-frame-effect-1">
+								<span class="image-frame-wrapper">
+									<img src="assets/gabineteActeck.webp" class="img-fluid" alt="">
+									<span class="image-frame-inner-border"></span>
+									<span class="image-frame-action">
+										<span class="image-frame-action-icon">
+											<i class="lnr lnr-link text-color-light"></i>
+										</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</li>
+				<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item ads">
+					<div class="portfolio-item hover-effect-3d appear-animation"
+						data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"
+						data-plugin-options="{'accY' : -50}">
+						<a href="portfolio-detail.html">
+							<span class="image-frame image-frame-style-1 image-frame-effect-1">
+								<span class="image-frame-wrapper">
+									<img src="assets/monitorAcer.jpg" class="img-fluid" alt="">
+									<span class="image-frame-inner-border"></span>
+									<span class="image-frame-action">
+										<span class="image-frame-action-icon">
+											<i class="lnr lnr-link text-color-light"></i>
+										</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+			<li class="col-12 col-md-6 col-lg-4 p-0 isotope-item ads">
+					<div class="portfolio-item hover-effect-3d appear-animation"
+						data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400"
+						data-plugin-options="{'accY' : -50}">
+						<a href="portfolio-detail.html">
+							<span class="image-frame image-frame-style-1 image-frame-effect-1">
+								<span class="image-frame-wrapper">
+									<img src="assets/logitechMk120.jpg" class="img-fluid" alt="">
+									<span class="image-frame-inner-border"></span>
+									<span class="image-frame-action">
+										<span class="image-frame-action-icon">
+											<i class="lnr lnr-link text-color-light"></i>
+										</span>
+									</span>
+								</span>
+							</span>
+						</a>
+					</div>
+				</li>
+		</div>
+	</div>
+</div>
+
+</div>
+<!--Galería de imágenes-->
+</div>
 
 </div>
 
