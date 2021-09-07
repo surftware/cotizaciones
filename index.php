@@ -11,7 +11,7 @@ include ("includes/header.php");
 				<div class="col-md-2">
 					<div class="header-column justify-content-start">
 						<div class="header-logo">
-							<a href="index.html">
+							<a href="https://cotizacion.surftware.com.mx/" target="_blank">
 								<img alt="Surftware" width="127" height="49" src="assets/img/creacion-paginas-web.png">
 							</a>
 						</div>

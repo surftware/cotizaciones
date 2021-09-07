@@ -30,7 +30,7 @@
 
                     </div>
                     <div class="col-md-4">
-                        <a href="#" class="">
+                        <a href="https://surftware.com.mx/" target="_blank" class="">
                             <img src="assets/img/creacion-paginas-web.png" alt="" class="logoFooter mx-auto">
                         </a>
 
